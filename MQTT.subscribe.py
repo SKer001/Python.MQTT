@@ -19,7 +19,7 @@ def on_message(client, userdata, message):
     print(message.payload.decode("utf-8"))
     pass
 
-local_client.on_message = on_message
+#local_client.on_message = on_message
 
 #local_client.on_connect = on_connect
 
